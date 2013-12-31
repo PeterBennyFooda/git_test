@@ -9,7 +9,6 @@ using namespace std;
 class PLAYER
 {
 private:
-    string name;
     int hp;
     int mp;
     int ap;
