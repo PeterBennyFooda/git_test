@@ -6,7 +6,7 @@ void GAME::init()
 //    cin >> user.name >> user.hp >> user.mp >> user.ap >> user.dp;
 //    cout << "輸入敵人的 姓名 HP MP AP DP:";
 //    cin >> enemy.name >> enemy.hp >> enemy.mp >> enemy.ap >> enemy.dp;
-    user=PLAYER(name, 100, 100, 80, 70);
+    user=PLAYER("Player", 100, 100, 80, 70);
     enemy=PLAYER("小醜", 100, 100, 85, 60);
     user_box=BOX(3, 2, 36, 4, YELLOW, BLUE, user.name, "玩家");
     enemy_box=BOX(43, 2, 36, 4, BLACK, LIGHTGRAY, enemy.name, "電腦");

@@ -9,6 +9,7 @@ using namespace std;
 class PLAYER
 {
 private:
+    string name;
     int hp;
     int mp;
     int ap;
@@ -18,7 +19,7 @@ private:
     int level;
     string msg;
 public:
-    PLAYER(string _name="unknow", int _hp=100, int _mp=20, int _ap=34, int _dp=22)
+    PLAYER(string _name="Player", int _hp=100, int _mp=20, int _ap=34, int _dp=22, int _sp=30, int _exp=0, int _level=1 )
         :name(_name), hp(_hp), mp(_mp), ap(_ap), dp(_dp), sp(_sp), exp(_exp), level(_level) {}
 
     void attack(PLAYER &);
