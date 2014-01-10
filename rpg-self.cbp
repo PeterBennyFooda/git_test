@@ -34,6 +34,9 @@
 		</Compiler>
 		<Unit filename="box.cpp" />
 		<Unit filename="box.h" />
+		<Unit filename="conio.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="conio2.h" />
 		<Unit filename="constream" />
 		<Unit filename="game.cpp" />
