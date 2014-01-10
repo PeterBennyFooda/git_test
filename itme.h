@@ -8,6 +8,9 @@ class ITEM_HEAL
 {
 private:
 
-public:
+int heal_hp=40;
 
+public:
+//傳入PLAYER.BAG
+//傳入PLAYER.HP
 };
